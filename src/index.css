@@ -41,6 +41,9 @@ header h1 {
   font-size: 3rem;
   text-transform: uppercase;
   letter-spacing: 1rem;
+  background: linear-gradient(45deg, #ff6ec4, #7873f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 header p {
@@ -54,7 +57,7 @@ header p {
   max-width: 85rem;
   margin: 2rem auto;
   padding: 1rem;
-  border: 2px solid #0d373e;
+  border: 2px solid #622f61;
   border-radius: 8px;
 }
 
@@ -64,7 +67,7 @@ header p {
   margin: 0;
   padding: 0;
   margin-bottom: 1rem;
-  color: #8feeff;
+  color: #9ceaf4;
   text-align: center;
 }
 
@@ -101,14 +104,14 @@ header p {
 
 .place-item:nth-child(odd) button:hover,
 .place-item:nth-child(odd) button:focus {
-  box-shadow: 0 0 8px 4px rgba(255, 217, 0, 0.6);
+  box-shadow: 0 0 8px 4px rgba(130, 209, 176, 0.634);
   border-radius: 8px;
   transform: rotate(5deg);
 }
 
 .place-item:nth-child(even) button:hover,
 .place-item:nth-child(even) button:focus {
-  box-shadow: 0 0 8px 4px rgba(255, 217, 0, 0.6);
+  box-shadow: 0 0 8px 4px rgba(130, 209, 176, 0.634);
   border-radius: 8px;
   transform: rotate(-5deg);
 }
@@ -116,6 +119,8 @@ header p {
 .place-item img {
   width: 100%;
   height: 100%;
+  max-width: 450px;
+  max-height: 300px;
   object-fit: cover;
   border-radius: 0.5rem;
 }
@@ -128,7 +133,7 @@ header p {
   bottom: 0;
   right: 1rem;
   margin: 1rem auto;
-  background-color: #feee86;
+  background-color: #eaacac;
   border-radius: 4px;
   padding: 0.15rem 0.35rem;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
@@ -197,7 +202,8 @@ header p {
 }
 
 .modal {
-  min-width: 30rem;;
+  min-width: 30rem;
+  ;
   padding: 0;
   z-index: 2;
   background: #d5c7bc;
@@ -227,6 +233,7 @@ header p {
     opacity: 0;
     transform: translateY(-3rem);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -238,6 +245,7 @@ header p {
     opacity: 0;
     transform: translateY(3rem);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);

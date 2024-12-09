@@ -1,0 +1,33 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:react-hooks/recommended"
+    ],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 12,
+      "sourceType": "module"
+    },
+    "plugins": ["react", "react-hooks"],
+    "rules": {
+      "react/react-in-jsx-scope": "off", // For React 17+ (no need to import React)
+      "react/prop-types": "warn",       // Warn if PropTypes are missing
+      "react/no-unescaped-entities": "warn", // Warn for unescaped entities in JSX
+      "react/no-array-index-key": "warn",   // Warn against using array indices as keys
+      "react-hooks/rules-of-hooks": "error", // Ensure hooks are used correctly
+      "react-hooks/exhaustive-deps": "warn"  // Warn for missing dependencies in hooks
+    },
+    "settings": {
+      "react": {
+        "version": "detect" // Automatically detect the React version
+      }
+    }
+  }
+  

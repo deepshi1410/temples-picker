@@ -1,4 +1,4 @@
-import { useRef, useState, useCallback, useEffect } from 'react';
+import { useRef, useState, useCallback } from 'react';
 
 import Places from './components/Places.jsx';
 import Modal from './components/Modal.jsx';
@@ -7,33 +7,17 @@ import logoImg from './assets/logo.png';
 import AvailablePlaces from './components/AvailablePlaces.jsx';
 import { fetchUserPlaces, updateUserPlaces } from './http.js';
 import Error from './components/Error.jsx';
+import { useFetch } from './hooks/useFetch.js'
 
 function App() {
   const selectedPlace = useRef();
-
-  const [userPlaces, setUserPlaces] = useState([]);
-  const [isFetching, setIsFetching] = useState(false);
-  const [error, setError] = useState();
 
   const [errorUpdatingPlaces, setErrorUpdatingPlaces] = useState();
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
-  useEffect(() => {
-    async function fetchPlaces() {
-      setIsFetching(true);
-      try {
-        const places = await fetchUserPlaces();
-        setUserPlaces(places);
-      } catch (error) {
-        setError({ message: error.message || 'Failed to fetch user places.' });
-      }
-
-      setIsFetching(false);
-    }
-
-    fetchPlaces();
-  }, []);
+  // in background it is fetching places data
+  const {isFetching, error, fetchedData: userPlaces, setFetchedData: setUserPlaces} = useFetch(fetchUserPlaces, [])
 
   function handleStartRemovePlace(place) {
     setModalIsOpen(true);
@@ -88,7 +72,7 @@ function App() {
 
       setModalIsOpen(false);
     },
-    [userPlaces]
+    [setUserPlaces, userPlaces]
   );
 
   function handleError() {
@@ -118,7 +102,7 @@ function App() {
         <img src={logoImg} alt="Stylized globe" />
         <h1>PlacePicker</h1>
         <p>
-          Create your personal collection of places you would like to visit or
+          Create your personal collection of temples you would like to visit or
           you have visited.
         </p>
       </header>
@@ -127,7 +111,7 @@ function App() {
         {!error && (
           <Places
             title="I'd like to visit ..."
-            fallbackText="Select the places you would like to visit below."
+            fallbackText="Select the temples you would like to visit below."
             isLoading={isFetching}
             loadingText="Fetching your places..."
             places={userPlaces}
