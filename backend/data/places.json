@@ -1,0 +1,302 @@
+[
+  {
+    "id": "t1",
+    "title": "Tirupati Balaji Temple",
+    "image": {
+      "src": "tirupati-balaji.jpg",
+      "alt": "Sacred Tirupati Balaji Temple in Andhra Pradesh."
+    },
+    "lat": 13.6834,
+    "lon": 79.3474
+  },
+  {
+    "id": "t2",
+    "title": "Golden Temple",
+    "image": {
+      "src": "golden-temple.jpg",
+      "alt": "Golden Temple, a spiritual center of Sikhism in Amritsar."
+    },
+    "lat": 31.61998,
+    "lon": 74.8765
+  },
+  {
+    "id": "t3",
+    "title": "Meenakshi Temple",
+    "image": {
+      "src": "meenakshi-temple.jpg",
+      "alt": "Ornate Meenakshi Temple dedicated to Goddess Parvati in Madurai."
+    },
+    "lat": 9.9195,
+    "lon": 78.1190
+  },
+  {
+    "id": "t4",
+    "title": "Sun Temple",
+    "image": {
+      "src": "sun-temple.jpg",
+      "alt": "Historic Sun Temple in Konark, Odisha, famous for its architecture."
+    },
+    "lat": 19.8876,
+    "lon": 86.0945
+  },
+  {
+    "id": "t5",
+    "title": "Somnath Temple",
+    "image": {
+      "src": "somnath-temple.jpg",
+      "alt": "Somnath Temple, an important Hindu pilgrimage site in Gujarat."
+    },
+    "lat": 20.8922,
+    "lon": 70.4020
+  },
+  {
+    "id": "t6",
+    "title": "Brihadeeswara Temple",
+    "image": {
+      "src": "brihadeeswara-temple.jpg",
+      "alt": "Magnificent Brihadeeswara Temple, part of UNESCO World Heritage Site."
+    },
+    "lat": 10.7821,
+    "lon": 79.1315
+  },
+  {
+    "id": "t7",
+    "title": "Kedarnath Temple",
+    "image": {
+      "src": "kedarnath-temple.jpg",
+      "alt": "Kedarnath Temple nestled in the Himalayas."
+    },
+    "lat": 30.7352,
+    "lon": 79.0669
+  },
+  {
+    "id": "t8",
+    "title": "Ramanathaswamy Temple",
+    "image": {
+      "src": "ramanathaswamy-temple.jpg",
+      "alt": "Ramanathaswamy Temple in Rameswaram, known for its longest corridors."
+    },
+    "lat": 9.2885,
+    "lon": 79.3174
+  },
+  {
+    "id": "t9",
+    "title": "Vaishno Devi Temple",
+    "image": {
+      "src": "vaishno-devi.jpg",
+      "alt": "Vaishno Devi Temple located in the Trikuta Mountains of Jammu."
+    },
+    "lat": 33.0324,
+    "lon": 74.9491
+  },
+  {
+    "id": "t10",
+    "title": "Akshardham Temple",
+    "image": {
+      "src": "akshardham-temple.jpg",
+      "alt": "Intricately carved Akshardham Temple in Delhi."
+    },
+    "lat": 28.6126,
+    "lon": 77.2773
+  },
+  {
+    "id": "t11",
+    "title": "Mahakaleshwar Temple",
+    "image": {
+      "src": "mahakaleshwar-temple.jpg",
+      "alt": "Mahakaleshwar Temple, one of the 12 Jyotirlingas, in Ujjain."
+    },
+    "lat": 23.1823,
+    "lon": 75.7680
+  },
+  {
+    "id": "t12",
+    "title": "Jagannath Temple",
+    "image": {
+      "src": "jagannath-temple.jpg",
+      "alt": "The holy Jagannath Temple in Puri, Odisha."
+    },
+    "lat": 19.7982,
+    "lon": 85.8245
+  },
+  {
+    "id": "t13",
+    "title": "Shirdi Sai Baba Temple",
+    "image": {
+      "src": "shirdi-temple.jpg",
+      "alt": "Famous Shirdi Sai Baba Temple in Maharashtra."
+    },
+    "lat": 19.7664,
+    "lon": 74.4774
+  },
+  {
+    "id": "t14",
+    "title": "Siddhivinayak Temple",
+    "image": {
+      "src": "siddhivinayak-temple.jpg",
+      "alt": "Siddhivinayak Temple dedicated to Lord Ganesha in Mumbai."
+    },
+    "lat": 19.0176,
+    "lon": 72.8306
+  },
+  {
+    "id": "t15",
+    "title": "Kashi Vishwanath Temple",
+    "image": {
+      "src": "kashi-vishwanath.jpg",
+      "alt": "Kashi Vishwanath Temple in Varanasi, one of the holiest sites in Hinduism."
+    },
+    "lat": 25.3109,
+    "lon": 82.9736
+  },
+  {
+    "id": "t16",
+    "title": "Dwarkadhish Temple",
+    "image": {
+      "src": "dwarkadhish-temple.jpg",
+      "alt": "Dwarkadhish Temple, dedicated to Lord Krishna in Dwarka, Gujarat."
+    },
+    "lat": 22.2379,
+    "lon": 68.9678
+  },
+  {
+    "id": "t17",
+    "title": "Amarnath Cave Temple",
+    "image": {
+      "src": "amarnath-temple.jpg",
+      "alt": "Amarnath Cave Temple, famous for the naturally forming ice Shivlinga."
+    },
+    "lat": 34.2082,
+    "lon": 75.5131
+  },
+  {
+    "id": "t18",
+    "title": "Kamakhya Temple",
+    "image": {
+      "src": "kamakhya-temple.jpg",
+      "alt": "Kamakhya Temple in Assam, an important Shakti Peeth."
+    },
+    "lat": 26.1676,
+    "lon": 91.7051
+  },
+  {
+    "id": "t19",
+    "title": "Lingaraja Temple",
+    "image": {
+      "src": "lingaraja-temple.jpg",
+      "alt": "Lingaraja Temple in Bhubaneswar, dedicated to Lord Shiva."
+    },
+    "lat": 20.2444,
+    "lon": 85.8340
+  },
+  {
+    "id": "t20",
+    "title": "Ranakpur Jain Temple",
+    "image": {
+      "src": "ranakpur-jain-temple.jpg",
+      "alt": "Magnificent Ranakpur Jain Temple in Rajasthan."
+    },
+    "lat": 25.1108,
+    "lon": 73.4765
+  },
+  {
+    "id": "t21",
+    "title": "Nataraja Temple",
+    "image": {
+      "src": "nataraja-temple.jpg",
+      "alt": "Nataraja Temple in Chidambaram, Tamil Nadu, dedicated to Lord Shiva."
+    },
+    "lat": 11.3995,
+    "lon": 79.6936
+  },
+  {
+    "id": "t22",
+    "title": "Virupaksha Temple",
+    "image": {
+      "src": "virupaksha-temple.jpg",
+      "alt": "Virupaksha Temple in Hampi, a UNESCO World Heritage site."
+    },
+    "lat": 15.3350,
+    "lon": 76.4600
+  },
+  {
+    "id": "t23",
+    "title": "Yamunotri Temple",
+    "image": {
+      "src": "yamunotri-temple.jpg",
+      "alt": "Yamunotri Temple, one of the Char Dham pilgrimage sites."
+    },
+    "lat": 30.9986,
+    "lon": 78.4594
+  },
+  {
+    "id": "t24",
+    "title": "Badami Cave Temples",
+    "image": {
+      "src": "badami-cave-temples.jpg",
+      "alt": "Badami Cave Temples showcasing rock-cut architecture in Karnataka."
+    },
+    "lat": 15.9186,
+    "lon": 75.6763
+  },
+  {
+    "id": "t25",
+    "title": "Raghunath Temple",
+    "image": {
+      "src": "raghunath-temple.jpg",
+      "alt": "Raghunath Temple in Jammu, dedicated to Lord Rama."
+    },
+    "lat": 32.7266,
+    "lon": 74.8570
+  },
+  {
+    "id": "t26",
+    "title": "Manikaran Sahib",
+    "image": {
+      "src": "manikaran-sahib.jpg",
+      "alt": "Manikaran Sahib, a famous Gurudwara and hot springs in Himachal Pradesh."
+    },
+    "lat": 32.0338,
+    "lon": 77.3497
+  },
+  {
+    "id": "t27",
+    "title": "Chaturbhuj Temple",
+    "image": {
+      "src": "chaturbhuj-temple.jpg",
+      "alt": "Chaturbhuj Temple in Orchha, Madhya Pradesh, dedicated to Lord Vishnu."
+    },
+    "lat": 25.3512,
+    "lon": 78.6417
+  },
+  {
+    "id": "t28",
+    "title": "Shore Temple",
+    "image": {
+      "src": "shore-temple.jpg",
+      "alt": "The famous Shore Temple in Mahabalipuram, Tamil Nadu."
+    },
+    "lat": 12.6168,
+    "lon": 80.1952
+  },
+  {
+    "id": "t29",
+    "title": "Hemkund Sahib",
+    "image": {
+      "src": "hemkund-sahib.jpg",
+      "alt": "Hemkund Sahib, a sacred Sikh pilgrimage site in Uttarakhand."
+    },
+    "lat": 30.6183,
+    "lon": 79.6975
+  },
+  {
+    "id": "t30",
+    "title": "Dilwara Temples",
+    "image": {
+      "src": "dilwara-temples.jpg",
+      "alt": "Exquisite Dilwara Temples in Mount Abu, Rajasthan."
+    },
+    "lat": 24.5925,
+    "lon": 72.7087
+  }
+]
